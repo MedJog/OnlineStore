@@ -1,0 +1,45 @@
+.feature {
+  background-color: #222224;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+.feature-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.feature-item-image {
+  margin-bottom: 28px;
+}
+
+.feature-item-title {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 19.96px;
+  font-style: normal;
+  line-height: 23.95px;
+  color: #FBFBFB;
+  margin-bottom: 16px;
+}
+
+.feature-item-text {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 13.97px;
+  font-style: normal;
+  line-height: 17.77px;
+  color: #FBFBFB;
+  text-align: center;
+}
+.feature-item-image:hover {
+  transform: scale(1.1)
+}

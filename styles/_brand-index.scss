@@ -1,0 +1,54 @@
+.brand {
+  background-color: #F1E4E6;
+}
+
+.brand-items {
+  display: flex;
+}
+
+.brand-item {
+  width: 50%;
+}
+
+.brand-item-image {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.brand-image {
+  height: 98%;
+  aspect-ratio: auto 2 / 1;
+}
+
+.brand-item-title {
+  padding-left: 64px;
+  padding-top: 335px;
+  padding-bottom: 335px;
+}
+
+.brand-title {
+  border-left: 12px solid #F16D7F;
+}
+
+.brand-title-big {
+  margin-left: 16px;
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 57.6px;
+}
+
+.brand-title-small {
+  margin-left: 16px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 38.4px;
+}
+
+.color-pink {
+  color: #F16D7F;
+}

@@ -1,0 +1,137 @@
+// styles for section catalog page catalog
+.catalog-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+// styles for drop-down menu page catalog
+.catalog-filter {
+  padding: 10px;
+  width: 30%;
+  position: relative;
+}
+.catalog-filter-caption {
+  display: flex;
+  gap: 5px;
+  padding: 25px 25px 25px 0;
+}
+.catalog-filter:hover {
+  box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+}
+.catalog-filter:hover .catalog-drop-down-menu {
+  display: flex;
+  box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+}
+.catalog-filter:hover .catalog-filter-heading {
+  color: #F16D7F;
+}
+.catalog-filter:hover .catalog-filter-icon {
+  color: #F16D7F;
+}
+.catalog-filter-heading  {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #000000;
+}
+.catalog-filter-icon {
+  color: #000000;
+}
+.catalog-drop-down-menu {
+ display: none;
+ flex-direction: column;
+ position: absolute;
+ z-index: 1;
+  top: 80px;
+  left: 0;
+  padding: 10px;
+  background-color: #FFFF;
+  width: 100%;
+}
+.menu-item {
+  margin-bottom: 18px; 
+}
+.menu-item-title {
+  padding: 10px;
+  border-left: 5px solid #f16d7f;
+  border-bottom: 1px solid #ebebeb;
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #EF5B70; 
+}
+.menu-list {
+  list-style-type: none;
+  padding: 24px 16px;
+}
+.menu-link {
+  display: block;
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #6F6E6E; 
+  margin-bottom: 10px;
+}
+.menu-link:hover {
+  color: #EF5B70; 
+}
+summary {
+  display: block;
+  }
+summary::-webkit-details-marker {
+  display: none;
+}
+.catalog-sort {
+  width: 65%;
+  display: flex;
+  gap: 30px;
+}
+.catalog-products {
+  padding-top: 14px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+// styles for pagination page catalog
+.catalog-pagination {
+  margin-bottom: 96px;
+}
+.pagination-block {
+  display: flex;
+  justify-content: center;
+}
+.pagination-list {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  list-style-type: none;
+  border: 2px solid #EBEBEB;
+}
+.pagination-link {
+  display: block;
+  padding: 10px;
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19.2px;
+  color: #6F6E6E ;
+}
+.pagination-link:hover {
+  color: #EF5B70;
+}
+.pagination-link:hover .pagination-arrow {
+  color: #EF5B70;
+}
+.pagination-arrow {
+  color: #6F6E6E;
+}

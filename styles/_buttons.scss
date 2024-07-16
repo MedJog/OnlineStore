@@ -1,0 +1,80 @@
+.button {
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.button_border {
+  border: 1px solid #F16D7F;
+}
+.button_border-gray {
+  border: 1px solid #A4A4A4;
+}
+.button_border-none {
+  border: none;
+}
+
+.button_oval {
+  padding: 9px;
+  border-radius: 0 20px 20px 0;
+}
+.button_oval:hover {
+  transform: scale(1.05);
+}
+
+.button_color-pink {
+  background-color: #F16D7F;
+}
+
+.button_color-white {
+  background-color: #FFFF;
+}
+
+.button_text-pink {
+  color: #F16D7F;
+}
+
+.button_text-white {
+  color: #FFFF;
+}
+.button_text-gray {
+  color: #A4A4A4;
+}
+
+.button_text-size-1 {
+  font-size: 16px;
+  line-height: 19.2px;
+}
+.button_text-size-2 {
+  font-size: 14px;
+  line-height: 16.8px;
+}
+.button-browse_paddings {
+  padding: 15px 39px;
+}
+.button_form_paddings {
+  padding: 10px 15px;
+}
+.button_paddings_reg {
+  padding: 15px 30px;
+}
+.button-cart {
+  width: 45%;
+}
+.button_reg {
+  width: 50%;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button_browse:hover {
+  color: #FFFF;
+  background-color: #F16D7F; 
+}
+.button_browse:hover .products-button-link {
+  color: #FFFF;
+}
+.button_cart-hover:hover {
+  transform: scale(1.05);
+}
+
+

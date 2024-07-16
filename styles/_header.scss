@@ -1,0 +1,31 @@
+.header {
+  background-color: #222222;
+}
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.header-item {
+  padding: 20px;
+}
+.header-right {
+  position: relative;
+  display: flex;
+}
+
+.icon {
+  color: #E8E8E8;
+}
+.icon:hover {
+  cursor: pointer;
+  color: #F16D7F;
+}
+.drop-down-menu:hover .header-menu {
+  display: flex;
+}
+

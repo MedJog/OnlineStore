@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "product_photos/product_1.png",
+    "name": "ELLERY X M'O CAPSULE",
+    "desc": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "$52",
+    "color": "Red",
+    "size": "XS",
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "img": "product_photos/product_2.png",
+    "name": "Pantsuit",
+    "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero culpa qui quod incidunt excepturi explicabo ut voluptas totam eaque numquam!",
+    "price": "$200",
+    "color": "Blue",
+    "size": "S",
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "img": "product_photos/product_3.png",
+    "name": "Sweatshirt",
+    "desc": "Numquam eos voluptatem consequatur facilis? Modi voluptatem porro obcaecati, ipsam veniam amet debitis asperiores aliquid adipisci illo.",
+    "price": "$150",
+    "color": "Black",
+    "size": "XXL",
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "img": "product_photos/product_3.png",
+    "name": "man's T-shirt",
+    "desc": "Porro, fuga soluta. Molestiae similique nobis provident odit, quaerat mollitia architecto autem soluta obcaecati nam quia magnam esse eveniet!",
+    "price": "$150",
+    "color": "Gray",
+    "size": "M",
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "img": "product_photos/product_4.png",
+    "name": "women's jacket",
+    "desc": "Numquam eos voluptatem consequatur facilis? Modi voluptatem porro obcaecati, ipsam veniam amet debitis asperiores aliquid adipisci illo.",
+    "price": "$350",
+    "color": "Pink",
+    "size": "XS",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "img": "product_photos/product_5.png",
+    "name": "women's jacket",
+    "desc": "Molestiae similique nobis provident odit, quaerat mollitia architecto autem soluta obcaecati nam quia magnam esse eveniet!",
+    "price": "$170",
+    "color": "Blue",
+    "size": "L",
+    "quantity": 1
+  }
+]

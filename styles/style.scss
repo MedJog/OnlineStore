@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-style: normal, italic;
+}
+
+.container {
+  padding-left: calc(50% - 1140px / 2);
+  padding-right: calc(50% - 1140px / 2);
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+// styles for header
+@import 'header';
+@import 'header-menu';
+
+// styles for section brand page index
+@import 'brand-index';
+// styles for section categories page index
+@import 'categories-index';
+
+// styles for section products page index
+@import 'products-index';
+
+// styles for  page catalog
+@import 'catalog-page';
+
+// styles for page product
+@import 'product-page';
+
+// styles for product card
+@import 'product-card';
+
+// styles for buttons
+@import 'buttons';
+
+// styles for page cart section shopping-cart 
+@import 'shopping-cart';
+// styles for page registration
+@import 'registration-page';
+// styles for section breadcrumb
+@import 'breadcrumb';
+
+// styles for section feature
+@import 'feature';
+
+// styles for section subscribe
+@import 'subscribe';
+
+// styles for footer
+@import 'footer';

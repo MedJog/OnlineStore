@@ -1,0 +1,109 @@
+// styles for section catalog page product
+.product-photos {
+  background-color: #F8F8F8;
+  // position: relative;
+}
+.product-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-arrow {
+  background-color: #2A2A2A26;
+  padding: 10px;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+.slider-arrow:hover .icon-gray {
+  color: #F16D7F;
+}
+.icon-gray {
+  color: #6F6E6E;
+}
+.product-describtion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border: 1px solid #EAEAEA;
+  // position: absolute;
+  // top: 612px;
+  // background-color: #FFFF;
+  // z-index: 1;
+  // max-width: 1140px;
+
+}
+.product-category {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #F16D7F; 
+  margin-bottom: 12px;
+}
+.pink-block {
+  width: 5%;
+  height: 4px;
+  background-color: #EF5B70;
+  margin-bottom: 12px;
+}
+.product-brand {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 21.6px;
+  color: #4D4D4D; 
+  margin-bottom: 48px;
+}
+.product-text {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #5E5E5E; 
+  text-align: center;
+  width: 55%;
+  margin-bottom: 32px;
+}
+.product-price {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #F16D7F; 
+  margin-bottom: 64px;
+}
+.gray-block {
+  width: 45%;
+  height: 2px;
+  background-color: #EAEAEA;
+  margin-bottom: 64px;
+}
+.product-form {
+  display: flex;
+  gap: 10px;
+
+}
+.product-select {
+  outline: #4D4D4D;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #6F6E6E; 
+}
+// styles for section additionally page product
+.more-products {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  display: flex;
+  justify-content: space-between;
+  // margin-top: 400px;
+}
+

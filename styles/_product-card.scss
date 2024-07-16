@@ -1,0 +1,117 @@
+.product-card {
+  position: relative;
+  width: 30%;
+  margin-bottom: 30px;
+}
+.product-card_cart {
+  // width: 65%;
+  // max-height: 306px;
+  box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+  margin-bottom: 40px;
+}
+.product-card__link {
+  display: block;
+}
+.product-card__link_cart {
+  display: flex;
+}
+.product-card__img {
+  width: 100%;
+}
+.product-card__img_cart {
+  max-height: 312px;
+  max-width: 262px;
+}
+.product-card__info {
+  padding: 20px;
+}
+.product-card__info_bc {
+  background-color: #F8F8F8;
+  
+}
+.product-card__heading {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 13px;
+  // font-style: normal;
+  line-height: 15.6px;
+  color: #000000;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.product-card__heading_cart {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 24px;
+  // font-style: normal;
+  line-height: 28.0px;
+  color: #222222;
+  margin-bottom: 42px;
+}
+.product-card__describtion {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #5D5D5D;
+  margin-bottom: 18px;
+}
+.product-card__price {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  // font-style: normal;
+  line-height: 19.2px;
+  color: #F16D7F;
+}
+.product-card__properties {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 22px;
+  // font-style: normal;
+  line-height: 26.4px;
+  color: #575757;
+  margin-bottom: 6px;
+}
+.product-card__add-basket {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  top: 188px;
+  width: 100%;
+  pointer-events: none;
+}
+.product-card__add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  pointer-events: all;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+.product-card__icon {
+  color: #FFFFFF;
+}
+.product-card-close {
+  padding: 20px;
+}
+.product-cart__icon-close {
+  color: #575757;
+}
+.product-card:hover {
+  box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+}
+.product-card:hover .product-card__img {
+  filter: brightness(30%);
+}
+.product-card:hover .product-card__add-basket {
+  display: flex;
+}

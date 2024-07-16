@@ -1,0 +1,53 @@
+.header-menu {
+  background-color: #FFFF;
+  padding: 37px 16px 32px 34px;
+  z-index: 1;
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  display: none;
+  flex-direction: column;
+}
+.menu-close {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 8px;
+}
+.icon-close {
+  color: #6F6E6E;
+}
+.menu-heading {
+  margin-bottom: 24px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #000000;
+}
+.menu-categories-heading {
+  margin-bottom: 14px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #F16D7F;
+}
+.menu-categories-names {
+  list-style: none;
+  margin-bottom: 22px;
+}
+.menu-categories-name {
+  padding: 0 53px 0 20px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 16.8px;
+  color: #6F6E6E;
+}
+.menu-categories-name:hover {
+  color: #F16D7F;
+
+}
